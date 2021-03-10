@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Matrix Multiplier</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+		<script src="script.js"></script>
+  </head>
+
+  <body>
+		<h1 id = "title">Matrix Multiplier</h1>
+		<form name = "matrixDimensionInputs" id = "matrixDimensionInputs" onsubmit = "grabInputs(); return false">
+      <div class = "container">
+        <div class = "row justify-content-center">
+          <div id = "matrix1Dimensions" class = "matrixDimensionContainer col-sm-4">
+            <h2>Matrix 1</h2>
+            <input type = "number" name = "m1r" class = "entryBox" id = "m1r" placeholder = "Rows" min = "1" max = "6">
+            <input type = "number" name = "m1c" class = "entryBox" id = "m1c" placeholder = "Cols" min = "1" max = "6">
+          </div>
+
+          <div id = "matrix2Dimensions" class = "matrixDimensionContainer col-sm-4">
+            <h2>Matrix 2</h2>
+            <input type = "number" name = "m2r" class = "entryBox" id = "m2r" placeholder = "Rows" min = "1" max = "6">
+            <input type = "number" name = "m2c" class = "entryBox" id = "m2c" placeholder = "Cols" min = "1" max = "6">
+          </div>
+        </div>
+      </div>
+			<div id = "subButtonContainer">
+				<input type = "submit" id = "sub1" class = "subButton"></input>
+			</div>
+		</form>
+
+		<div id = "tableContainer">
+			<form name = "matrixInputs" id = "matrixInputs" onsubmit = "generateProductResults(); return false">
+				<div class = "container">
+          <div class = "row justify-content-around">
+            <table id = "matrix1Table" class = "matrixTable">
+            </table>
+            <table id = "matrix2Table" class = "matrixTable">
+            </table>
+          </div>
+        </div>
+				<div id = "subButton2Container">
+					<input type = "submit" id = "sub2" class = "subButton"></input>
+				</div>
+			</form>
+			<table id = "matrixProduct" class = "matrixTable">
+			</table>
+		</div>
+  </body>
+</html>
