@@ -1,0 +1,125 @@
+body {
+	background-color: #252729;
+}
+
+#title {
+	color: #ffffff;
+	font-family: Helvetica, Arial sans-serif;
+	font-size: 4em;
+	-webkit-text-stroke-width: 0.050em;
+	-webkit-text-stroke-color: #000000;
+	text-align: center;
+	margin-top: 0px;
+	font-weight: bold;
+}
+
+.matrixDimensionContainer {
+	min-height: 10em;
+  max-width: 15em;
+  padding: 1em;
+  margin: 1em;
+	border: 0.25em solid #000000;
+	border-radius: 8%;
+	background: #ffffff;
+  text-align: center;
+}
+
+.matrixDimensionContainer h2 {
+	margin-top: 0.5;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.innerDimensionContainer {
+	text-align: center;
+}
+
+#matrix1Dimensions {
+	background-color: #d4e5fa;
+}
+
+#matrix1Dimensions:hover {
+	background-color: #c5e0eb;
+}
+
+#matrix2Dimensions {
+	background-color: #f7c3c3;
+}
+
+#matrix2Dimensions:hover {
+	background-color: #e8c5b5;
+}
+
+.entryBox {
+	width: 4.5em;
+  padding: 0.4em;
+	border: 0.2em solid #000000;
+	border-radius: 10%;
+	margin: 0.5em;
+}
+
+.entryBox:focus {
+	background-color: #f8ffcf;
+}
+
+#subButtonContainer {
+	clear: both;
+	text-align: center;
+}
+
+.subButton {
+	height: 4em;
+	width: 8em;
+	margin-top: 2em;
+	font-size: 1em;
+	font-weight: bold;
+	border: 0.2em solid #000000;
+	border-radius: 6%;
+}
+
+.subButton:hover {
+	cursor: pointer;
+	background-color: #cfd0d1;
+	border-radius: 8%;
+}
+
+#tableContainer {
+	text-align: center;
+	padding-left:2em;
+	padding-right: 2em;
+}
+
+#matrix1Table {
+	background-color: #d4e5fa;
+	display: none;
+	/*margin-left: 24em;
+	float: left;*/
+}
+
+#matrix1Table:hover {
+	background-color: #c5e0eb;
+}
+
+#matrix2Table {
+	background-color: #f7c3c3;
+	display: none;
+}
+
+.matrixTable {
+	border: 0.2em solid #000000;
+  margin: 1em;
+}
+
+#subButton2Container {
+	clear: both;
+	text-align: center;
+}
+
+#sub2 {
+	display: none;
+}
+
+
+#matrixProduct {
+	background-color: #d4e5fa;
+	display: none;
+}
